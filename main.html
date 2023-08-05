@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" defer src="./src/js/mainView.js "></script>
+    <title>TETRIS GAME</title>
+  </head>
+  <body>
+    <section class="display-game">
+      <canvas width="320" height="640" id="game"></canvas>
+    </section>
+    <section class="controller">
+      <div>
+        <h1>TETRIS GAME</h1>
+      </div>
+      <div class="button-container--0">
+        <button class="button--0 button--start hidden" data-mode="start">
+          start
+        </button>
+        <button class="button--0 button--reset hidden" data-mode="reset">
+          reset
+        </button>
+      </div>
+
+      <div class="button-container--1">
+        <button class="button--1 button--normal" data-mode="normal">
+          normal
+        </button>
+        <button class="button--1 button--record" data-mode="record">
+          record
+        </button>
+        <button class="button--1 button--replay" data-mode="replay">
+          replay
+        </button>
+      </div>
+      <div class="message-box"></div>
+    </section>
+  </body>
+</html>
