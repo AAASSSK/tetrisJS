@@ -4,8 +4,8 @@
   "default": "main.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel main.html",
-    "build": "parcel build main.html --dist-dir ./dist"
+    "start": "parcel start main.html",
+    "build": "parcel build main.html"
   },
   "author": "jintak",
   "license": "ISC",
@@ -15,7 +15,8 @@
     "core-js": "^3.32.0",
     "regenerator-runtime": "^0.13.11"
   },
+  "main": "index.js",
   "devDependencies": {
-    "parcel": "^2.9.3"
+    "parcel-bundler": "^1.12.5"
   }
 }
