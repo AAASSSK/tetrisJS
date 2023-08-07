@@ -14,11 +14,8 @@ import {
   tetrisView,
   GameResetView,
 } from "./tetrisView.js";
-import { resolve } from "path";
-import { constrainedMemory } from "process";
 import { keyAccept } from "./tetrisFunc/keyAccept.js";
 import { deleteFullLines } from "./tetrisFunc/deleteFullLines.js";
-import { throws } from "assert";
 import { isValidMove } from "./tetrisFunc/isValidMove.js";
 
 export class Tetris {

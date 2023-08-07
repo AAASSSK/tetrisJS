@@ -1,7 +1,5 @@
 import { Tetris } from "./tetris/tetrisController.js";
 import { GAME_MODE } from "./tetris/config.js";
-import { SEND_MSG_DELAY } from "./tetris/config.js";
-import { findSourceMap } from "module";
 
 const startButton = document.querySelector(".button--start");
 const resetButton = document.querySelector(".button--reset");
